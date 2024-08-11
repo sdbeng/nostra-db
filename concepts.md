@@ -50,3 +50,10 @@ Inflexible: It can be challenging to change the existing data structure of a dat
 A relational database is a type of database that stores data in tables. We usually connect tables by relationships; this allows the data to be easily accessed and used. For example, a “Customer” table might contain customer information such as their names, addresses, and phone numbers. But the “Customer” table might also include a relationship to the “Product” table, which would store information about each product a customer has purchased. A relational database allows the data to be easily accessed and used. Relational databases are also called SQL databases.
 
 ### ACID property of a database
+ACID is a set of four properties that guarantee the consistency and integrity of data in a database. The ACID properties are:
+1. Atomicity: all the queries in a group must be executed or none of them will be executed.
+2. Consistency: the db needs to be consistent after all the queries in a group have been executed.
+3. Isolation: the execution of one group of queries will not affect the execution of another.
+4. Durability: the results of all the queries in a group will be permanent, even if system fails.
+
+ACID properties are essentials because they guarantee that data in a database is consistent and reliable. Without the ACID properties, data could become corrupted or lost.
